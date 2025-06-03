@@ -4,7 +4,6 @@ import { useEffect, useState, useRef } from 'react'
 import { useGLTF, useAnimations } from '@react-three/drei'
 import { useThree, useFrame } from '@react-three/fiber'
 import * as THREE from 'three'
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 
 // Use the walking model directly since it has both mesh and animation
 const MODEL_PATH = '/models/FemaleWalk.glb'
